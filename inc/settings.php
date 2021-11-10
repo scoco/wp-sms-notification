@@ -28,7 +28,7 @@ function settings_cf7_sms_settings()
     // Registers a token field example
     add_settings_field(
         'settings_cf7_sms_token_field',
-        __('Free Mobile API Token', 'settings-cf7_sms'),
+        __('FreeMobile API Token', 'settings-cf7_sms'),
         'settings_cf7_sms_settings_token_field_display',
         'settings_cf7_sms_top_level_settings_page',
         'settings_cf7_sms_settings_section',
@@ -39,7 +39,7 @@ function settings_cf7_sms_settings()
     // Registers a user field example
     add_settings_field(
         'settings_cf7_sms_user_field',
-        __('Free mobile user', 'settings-cf7_sms'),
+        __('FreeMobile user', 'settings-cf7_sms'),
         'settings_cf7_sms_settings_user_field_display',
         'settings_cf7_sms_top_level_settings_page',
         'settings_cf7_sms_settings_section',
@@ -58,7 +58,7 @@ function settings_cf7_sms_settings()
 function settings_cf7_sms_settings_section_display($args)
 {
     // Just var_dumping data here to help you visualize the array organization.
-    var_dump(get_option('settings_cf7_sms_settings'));
+    // var_dump(get_option('settings_cf7_sms_settings'));
 }
 
 
